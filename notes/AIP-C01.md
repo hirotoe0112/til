@@ -1,0 +1,86 @@
+## SageMaker
+
+- [Asynchronous inference - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/async-inference.html)
+- [Inference options in Amazon SageMaker AI - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model-options.html)
+- [Deploy models with Amazon SageMaker Serverless Inference - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html)
+- [Real-time inference - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html)
+  - リアルタイムインファレンスは25MBまで
+- [Batch transform for inference with Amazon SageMaker AI - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html)
+- [Deploy models with DJL Serving - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-models-frameworks-djl-serving.html)
+- [Inference optimization for Amazon SageMaker AI models - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/model-optimize.html)
+
+## Bedrock
+
+- [Construct and store reusable prompts with Prompt management in Amazon Bedrock - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-management.html)
+- [Increase throughput with cross-Region inference - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html)
+- [Understanding intelligent prompt routing in Amazon Bedrock - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html)
+  - 少なくとも二つの異なるFMが必要（完全に同一ではない）
+- [Increase model invocation capacity with Provisioned Throughput in Amazon Bedrock - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/prov-throughput.html)
+- [Monitor Amazon Bedrock API calls using CloudTrail - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/logging-using-cloudtrail.html)
+- [Monitor model invocation using CloudWatch Logs and Amazon S3 - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/model-invocation-logging.html)
+- [Evaluate the performance of Amazon Bedrock resources - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/evaluation.html)
+- [Monitor Amazon Bedrock Guardrails using CloudWatch metrics - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/monitoring-guardrails-cw-metrics.html)
+- [converse — AWS CLI 2.34.62 Command Reference](https://docs.aws.amazon.com/cli/latest/reference/bedrock-runtime/converse.html)
+- [converse - Boto3 1.43.23 documentation](https://docs.aws.amazon.com/boto3/latest/reference/services/bedrock-runtime/client/converse.html)
+- [Get started without the AgentCore CLI - Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/getting-started-custom.html)
+- [Overview - Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html)
+- [Improve the relevance of query responses with a reranker model in Amazon Bedrock - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/rerank.html)
+- [KnowledgeBaseVectorSearchConfiguration - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_KnowledgeBaseVectorSearchConfiguration.html)
+- [Identity and access management for Amazon Bedrock - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/security-iam.html)
+- [From RAG to fabric: Lessons learned from building real-world RAGs at GenAIIC – Part 1 | Artificial Intelligence](https://aws.amazon.com/jp/blogs/machine-learning/from-rag-to-fabric-lessons-learned-from-building-real-world-rags-at-genaiic-part-1/)
+
+## Amazon Q Developer
+
+- [Reviewing code with Amazon Q Developer - Amazon Q Developer](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/code-reviews.html)
+- [Best practices for code generation with Amazon Q Developer - AWS Prescriptive Guidance](https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-code-generation/code-generation.html)
+- [AI for Software Development – Amazon Q Developer Features – AWS](https://aws.amazon.com/jp/q/developer/features/)
+
+## OpenSearch
+
+- [Learning to Rank for Amazon OpenSearch Service - Amazon OpenSearch Service](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/learning-to-rank.html)
+- [Working with vector search collections - Amazon OpenSearch Service](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html)
+
+## Amazon Comprehend
+
+- [Detecting PII entities - Amazon Comprehend](https://docs.aws.amazon.com/comprehend/latest/dg/how-pii.html)
+
+## Amazon Textract
+
+- [What is Amazon Textract? - Amazon Textract](https://docs.aws.amazon.com/textract/latest/dg/what-is.html)
+
+## Amazon Macie
+
+- [Discovering sensitive data with Macie - Amazon Macie](https://docs.aws.amazon.com/macie/latest/user/data-classification.html)
+
+## CloudWatch
+
+- [Application Signals - Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Monitoring-Sections.html)
+
+## Step Functions
+
+- [Invoke and customize Amazon Bedrock models with Step Functions - AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-bedrock.html)
+
+## Amazon Aurora
+
+- [Using Aurora PostgreSQL as a Knowledge Base for Amazon Bedrock - Amazon Aurora](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.VectorDB.html)
+
+## Amazon Quick
+
+- [What is Amazon Quick? - Amazon Quick](https://docs.aws.amazon.com/quick/latest/userguide/what-is.html)
+- [Gaining insights with machine learning (ML) in Amazon Quick Sight - Amazon Quick](https://docs.aws.amazon.com/quick/latest/userguide/making-data-driven-decisions-with-ml-in-quicksight.html)
+
+## Rekognition
+
+- [What is Amazon Rekognition Custom Labels? - Rekognition](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/what-is.html)
+
+## Amazon Managed Grafana
+
+- [Extend your workspace with plugins - Amazon Managed Grafana](https://docs.aws.amazon.com/grafana/latest/userguide/grafana-plugins.html)
+
+## Amazon DocumentDB
+
+- [Querying in Amazon DocumentDB - Amazon DocumentDB](https://docs.aws.amazon.com/documentdb/latest/devguide/querying.html)
+
+## General
+
+- [What is Embedding? - Embeddings in Machine Learning Explained - AWS](https://aws.amazon.com/what-is/embeddings-in-machine-learning/)
