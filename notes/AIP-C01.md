@@ -8,6 +8,8 @@
 - [Batch transform for inference with Amazon SageMaker AI - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html)
 - [Deploy models with DJL Serving - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-models-frameworks-djl-serving.html)
 - [Inference optimization for Amazon SageMaker AI models - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/model-optimize.html)
+- https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-deployment.html
+  - SageMaker AI real-time endpointは使っていない時間にもコストがかかる
 
 ## Bedrock
 
@@ -39,6 +41,14 @@
 - [Include metadata in a data source to improve knowledge base query - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/kb-metadata.html)
 - https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles-use.html
 - https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html
+- https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_StartAsyncInvoke.html
+  - このメソッドはAmazon Nova Reel video generationのみサポート
+- https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference.html
+  - area-specific inference profilesを使うことで複数の地域に分散することができる
+- https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-ds.html
+  - Bedrock KBはドキュメント取り込みのサイズにクォータがある
+- https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-contextual-grounding-check.html
+  - GuardRailsにはgrounding checkもある
 
 ## Amazon Q Developer
 
@@ -79,10 +89,14 @@
 ## CloudWatch
 
 - [Application Signals - Amazon CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Application-Monitoring-Sections.html)
+- https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/GenAI-observability.html
 
 ## Step Functions
 
 - [Invoke and customize Amazon Bedrock models with Step Functions - AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/connect-bedrock.html)
+- https://docs.aws.amazon.com/step-functions/latest/dg/choosing-workflow-type.html
+  - Expressタイプは5分まで
+  - Standardタイプは同期実行のみ
 
 ## Amazon Aurora
 
