@@ -28,6 +28,17 @@
 - [KnowledgeBaseVectorSearchConfiguration - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_agent-runtime_KnowledgeBaseVectorSearchConfiguration.html)
 - [Identity and access management for Amazon Bedrock - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/security-iam.html)
 - [From RAG to fabric: Lessons learned from building real-world RAGs at GenAIIC – Part 1 | Artificial Intelligence](https://aws.amazon.com/jp/blogs/machine-learning/from-rag-to-fabric-lessons-learned-from-building-real-world-rags-at-genaiic-part-1/)
+- [Actions, resources, and condition keys for Amazon Bedrock - Service Authorization Reference](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonbedrock.html#amazonbedrock-bedrock_PromptRouterArn)
+- [Enforce the use of specific guardrails in model inference requests - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-permissions-id.html)
+- [How Amazon Bedrock works with IAM - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/security_iam_service-with-iam.html)
+- [Ingest changes directly into a knowledge base - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/kb-direct-ingestion.html)
+- [Evaluate the performance of Amazon Bedrock resources - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/evaluation.html)
+- [Design a prompt - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/design-a-prompt.html)
+- [Request and Response - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-anthropic-claude-messages-request-response.html)
+- [Influence response generation with inference parameters - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/inference-parameters.html#inference-randomness)
+- [Include metadata in a data source to improve knowledge base query - Amazon Bedrock](https://docs.aws.amazon.com/bedrock/latest/userguide/kb-metadata.html)
+- https://docs.aws.amazon.com/bedrock/latest/userguide/inference-profiles-use.html
+- https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html
 
 ## Amazon Q Developer
 
@@ -39,6 +50,19 @@
 
 - [Learning to Rank for Amazon OpenSearch Service - Amazon OpenSearch Service](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/learning-to-rank.html)
 - [Working with vector search collections - Amazon OpenSearch Service](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/serverless-vector-search.html)
+
+## S3
+
+- [Working with S3 Vectors and vector buckets - Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html)
+
+## Amazon Nova
+
+- https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html
+  - Nova Microはtextオンリー
+
+## Lambda
+
+- [Creating and managing Lambda function URLs - AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/urls-configuration.html)
 
 ## Amazon Comprehend
 
@@ -80,6 +104,10 @@
 ## Amazon DocumentDB
 
 - [Querying in Amazon DocumentDB - Amazon DocumentDB](https://docs.aws.amazon.com/documentdb/latest/devguide/querying.html)
+
+## Glue
+
+- [AWS Glue Data Catalog - AWS Prescriptive Guidance](https://docs.aws.amazon.com/prescriptive-guidance/latest/serverless-etl-aws-glue/aws-glue-data-catalog.html)
 
 ## General
 
