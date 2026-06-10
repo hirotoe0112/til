@@ -53,6 +53,15 @@
   - Bedrock Data Automationはドキュメントや画像などのデータから情報を抽出するためのサービス
 - https://docs.aws.amazon.com/bedrock/latest/userguide/model-evaluation-prompt-datasets.html
   - Automatic Model Evaluationはデータセット1,000まで
+- https://docs.aws.amazon.com/bedrock/latest/userguide/rerank.html
+  - リランカーモデルはクエリとチャンクとの関連性を評価して関連順に並び替える
+- https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-routing.html
+  - intelligent prompt routingは同じモデルファミリーの中でしかルーティングできない
+- https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html
+- https://docs.aws.amazon.com/bedrock/latest/userguide/custom-models.html
+  - fine-tuningはlabeledデータが必要、distillationは大きなモデルから小さなモデルへ知識を転送することで、モデルの圧縮や効率性を目的にして行う
+- https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-idp-microsoft.html
+  - AgentCoreではMicrosoft Entra IDをインバウンドIdPとして使用できる
 
 ## Amazon Q Developer
 
@@ -70,6 +79,8 @@
 - [Working with S3 Vectors and vector buckets - Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html)
 - https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-how-to-event-types-and-destinations.html#supported-notification-destinations
   - S3 Event NotificationのtargetはSQS、SNS、Lambda、EventBridgeのみでStepFunctionsは直接起動できない
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingMetadata.html
+  - システム定義メタデータは作成日やサイズなど、ユーザ定義メタデータはアップロード時にユーザが設定できる
 
 ## Amazon Nova
 
