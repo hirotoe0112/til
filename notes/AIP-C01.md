@@ -56,6 +56,8 @@
 - https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html
 - https://docs.aws.amazon.com/bedrock/latest/userguide/custom-models.html
   - fine-tuningはlabeledデータが必要、distillationは大きなモデルから小さなモデルへ知識を転送することで、モデルの圧縮や効率性を目的にして行う
+- https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-idp-microsoft.html
+  - AgentCoreではMicrosoft Entra IDをインバウンドIdPとして使用できる
 
 ## Amazon Q Developer
 
