@@ -49,6 +49,10 @@
   - Bedrock KBはドキュメント取り込みのサイズにクォータがある
 - https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-contextual-grounding-check.html
   - GuardRailsにはgrounding checkもある
+- https://docs.aws.amazon.com/bedrock/latest/userguide/bda.html
+  - Bedrock Data Automationはドキュメントや画像などのデータから情報を抽出するためのサービス
+- https://docs.aws.amazon.com/bedrock/latest/userguide/model-evaluation-prompt-datasets.html
+  - Automatic Model Evaluationはデータセット1,000まで
 
 ## Amazon Q Developer
 
@@ -64,6 +68,8 @@
 ## S3
 
 - [Working with S3 Vectors and vector buckets - Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html)
+- https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-how-to-event-types-and-destinations.html#supported-notification-destinations
+  - S3 Event NotificationのtargetはSQS、SNS、Lambda、EventBridgeのみでStepFunctionsは直接起動できない
 
 ## Amazon Nova
 
