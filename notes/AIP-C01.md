@@ -1,6 +1,7 @@
 ## SageMaker
 
 - [Asynchronous inference - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/async-inference.html)
+  - ペイロード最大1GB、処理時間最大1時間
 - [Inference options in Amazon SageMaker AI - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/deploy-model-options.html)
 - [Deploy models with Amazon SageMaker Serverless Inference - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/serverless-endpoints.html)
 - [Real-time inference - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/realtime-endpoints.html)
@@ -78,6 +79,7 @@
 ## S3
 
 - [Working with S3 Vectors and vector buckets - Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-vectors.html)
+  - S3にもベクターを格納する機能はある
 - [Event notification types and destinations - Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/notification-how-to-event-types-and-destinations.html#supported-notification-destinations)
   - S3 Event NotificationのtargetはSQS、SNS、Lambda、EventBridgeのみでStepFunctionsは直接起動できない
 - [Working with object metadata - Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingMetadata.html)
