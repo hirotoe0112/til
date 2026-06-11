@@ -10,6 +10,9 @@
 - [Inference optimization for Amazon SageMaker AI models - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/model-optimize.html)
 - [Model deployment options in Amazon SageMaker AI - Amazon SageMaker AI](https://docs.aws.amazon.com/sagemaker/latest/dg/how-it-works-deployment.html)
   - SageMaker AI real-time endpointは使っていない時間にもコストがかかる
+- https://docs.aws.amazon.com/sagemaker/latest/dg/shadow-tests.html
+  - shadow testはproductionと一緒に新しいモデルバージョンもデプロイしてproductionのトラフィックのコピーを受け取れる
+  - A/Bテストは新しいエンドポイントを公開しないといけないのに対し、shadow testは公開しなくてもできる
 
 ## Bedrock
 
@@ -58,6 +61,8 @@
   - fine-tuningはlabeledデータが必要、distillationは大きなモデルから小さなモデルへ知識を転送することで、モデルの圧縮や効率性を目的にして行う
 - [Microsoft - Amazon Bedrock AgentCore](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/identity-idp-microsoft.html)
   - AgentCoreではMicrosoft Entra IDをインバウンドIdPとして使用できる
+- https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html
+  - GuardRailsはSageMakerにデプロイされているモデルにも使える
 
 ## Amazon Q Developer
 
