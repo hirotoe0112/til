@@ -26,3 +26,13 @@
   - instructionやスクリプトなどが入ったフォルダで、Claudeが特定のタスクのパフォーマンスを向上させるために使う
   - Anthropic管理のスキルとカスタムスキルがある
   - 外部からSkillをダウンロードした場合、内容をレビューしないとセキュリティリスクがある
+- Connectors
+  - Claudeが色々なツールやデータを使えるようにする
+  - MCPはConnectorsを標準化する
+  - WebツールにアクセスできるWeb Connectorsとローカルファイルやアプリにアクセスできるdesktop extensionsがある
+- Enterprise Search
+  - 企業全体のプロジェクトのようなもの
+- Research Mode
+  - Agenticなリサーチをする
+  - 複数のソースを調査し包括的なレポートを作成する
+  - リサーチの複雑度によって5～45分かかる
